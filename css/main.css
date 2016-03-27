@@ -13,7 +13,7 @@ h1,h2{
 	background-color: #ffffff;
 	color: #444444;
 	padding: 15px;
-	max-width: 75%;
+	max-width: 100%;
 	-webkit-box-shadow: 5px 5px 13px 0px rgba(68,68,68,1);
 	-moz-box-shadow: 5px 5px 13px 0px rgba(68,68,68,1);
 	box-shadow: 5px 5px 13px 0px rgba(68,68,68,1);
@@ -90,9 +90,9 @@ h1,h2{
 .text-right{
 	text-align: right;
 }
-/* Dropdown Menus */
+/* Top Navigation Menu */
 
-	.nav_menu { background-color: #444444; margin: 0px; max-height: 100%; max-width: 100%; padding: 0px; position: relative; z-index: 1000; }
+	.nav_menu { background-color: #444444; margin: 0px; height: 90%; max-width: 100%; padding: 0px; position: relative; z-index: 1000; }
 	.nav_menu li {
 		background-color: #444444;
 		display: inline-block;
@@ -102,7 +102,7 @@ h1,h2{
 	.nav_menu li a{
 		color: #ffffff;
 		line-height: 12px;
-		padding: 0px;
+		padding: 10px;
 		text-decoration: none;
 	}
 	.nav_menu ul{
@@ -117,19 +117,19 @@ h1,h2{
     color: white;
 	}
 
-	/* Vertical Nav Menu*/
+/* Vertical Nav Menu*/
 	.vert_nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-    border: 1px solid #555;
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+   		width: 100%;
+    	background-color: #444444;
+    	border: 1px solid #555;
 	}
 
 	.vert_nav li a {
 	    display: block;
-	    color: #000;
+	    color: #ffffff;
 	    padding: 8px 16px;
 	    text-decoration: none;
 	}
@@ -144,12 +144,12 @@ h1,h2{
 	}
 
 	.vert_nav li a.active {
-	    background-color: #4CAF50;
+	    background-color: #707070;
 	    color: white;
 	}
 
 	.vert_nav li a:hover:not(.active) {
-	    background-color: #555;
+	    background-color: #595959;
 	    color: white;
 	}
 
